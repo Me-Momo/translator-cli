@@ -1,0 +1,6 @@
+echo -e "\033[32;49;1m [Translating START] \033[39;49;0m"
+
+trans -speak -d :zh+ja $1 
+
+echo -e "\033[32;49;1m [Translating DONE] \033[39;49;0m"
+exit
